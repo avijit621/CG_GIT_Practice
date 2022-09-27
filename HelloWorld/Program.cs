@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EMS;
 using Employee;
 namespace HelloWorld
 {
@@ -13,7 +12,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("Today is Tuesday");
-            Class1 employee = new Class1 { ID=20,Name="Tom",Salary=20000};
+            Emp employee = new Emp { ID=20,Name="Tom",Salary=20000};
         }
     }
 }
