@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EMS;
+using Employee;
 namespace HelloWorld
 {
     internal class Program
@@ -12,7 +13,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("Today is Tuesday");
-            Employee employee = new Employee { ID=20,Name="Tom",Salary=20000};
+            Class1 employee = new Class1 { ID=20,Name="Tom",Salary=20000};
         }
     }
 }

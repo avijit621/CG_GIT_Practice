@@ -54,6 +54,10 @@
       <Project>{0d8d222c-924f-463e-8c3d-6ec71ac39c67}</Project>
       <Name>EMS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Employee\Employee.csproj">
+      <Project>{b124b205-c026-47f9-9e0c-ccbb97685187}</Project>
+      <Name>Employee</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
